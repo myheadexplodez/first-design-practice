@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    background-color: #fff;
+    max-width: 100%;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+#content {
+    max-width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(101, 218, 180);
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 8px;
+    font-weight: bold;
+    margin: 2px;
+    font-size: 18px;
+}
+
+#buttons {
+ display: flex;
+    flex-wrap: wrap;
+align-items: center;
+ justify-content: space-evenly;
+ position: fixed;
+ background-color: #fff;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.navbar-buttons {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 2px;
+    margin: 5px;
+}
+.navbar-button {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+.navbar-button:hover {
+    font-size: larger;
+}
+
+.logo {
+    width: 100px;
+    height: 55px;
+
+}
+
+
+
+h1 {
+    padding: 30px;
+    font-size: 4rem;
+    font-family: "Chivo-Mono", sans-serif;
+    text-align: center;
+}
+
+.header-span {
+    color: rgb(101, 218, 180);
+}
+
+.header-description {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Chivo-Mono", sans-serif;
+    padding-bottom: 5rem;
+}
+
+.lobevideo {
+    left: 0;
+    top: 0;
+    height: 100%
+    min-width: 75%;
+    object-fit: contain;
+    max-width: 900px;
+    border: none;
+    border-radius: 15px;
+
+
+    
+}
+
+.lobevideo:hover {
+    box-shadow:  10px 10px 30px black,
+             -10px -10px 30px grey;
+}
+
+h2 {
+    font-family: "Chivo-Mono", sans-serif;
+    text-align: center;
+    padding: 30px;
+    font-size: 4.2rem;
+}
+
+#final-section {
+    text-align: center;
+}
+/* button */
+.train-lobe {
+    font-size: 2rem;
+    border-radius: 30px;
+}
+
+.divider {
+    border: 1.5px solid grey;
+    text-align: center;
+    width: 75%;
+    min-width: 400px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.footer-logo {
+    width: 100px;
+    height: 55px;  
+
+}
+/* Footer box of the 5 lists */
+#footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* bold fonts for the categories */
+.bold {
+    font-weight: bold;
+    font-family: "Chivo-Mono", sans-serif;
+
+}
+
+li {
+    list-style: none;
+    display: flex;
+    margin: 20px 20px;
+}
+
+#socmedicon {
+    display: flex;
+    flex-direction: column;
+    color: rgb(101, 218, 180);
+    padding: 20px;
+  }
+
